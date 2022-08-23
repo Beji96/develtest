@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+}
+/* header */
+header {
+  width: 20%;
+  background-color: grey;
+  height: 100vh;
+}
+.flex-container {
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+.first-child-header,
+.second-child-header,
+.child-main-header {
+  height: 5vh;
+  background-color: lightgray;
+}
+.first-child-header {
+  width: 4rem;
+}
+.second-child-header {
+  width: 10rem;
+}
+.child-main-header {
+  margin: 1em auto;
+  width: 17rem;
+}
+.big-bottom-header-child {
+  margin: 15em auto;
+  width: 17rem;
+  height: 20vh;
+  background-color: lightgray;
+}
+/* finish header */
+/* start main */
+main {
+  padding: 0 1em;
+  width: 60%;
+  background-color: lightgray;
+}
+.first-main-child,
+.second-main-child,
+.first-child-main,
+.second-child-main {
+  height: 5vh;
+  background-color: grey;
+}
+.flex-container {
+  display: flex;
+}
+.first-child-main {
+  width: 30rem;
+}
+.second-child-main {
+  width: 3rem;
+  margin-right: 1rem;
+}
+.first-main-child {
+  width: 20rem;
+}
+.flex-childs {
+  display: flex;
+}
+.second-main-child {
+  width: 5rem;
+  margin: 0 1em;
+}
+.big-child {
+  margin: auto;
+  width: 95%;
+  height: 30vh;
+  background-color: grey;
+}
+.flex-container {
+  display: flex;
+}
+.bottom-child-main {
+  width: 40%;
+  height: 40vh;
+  background-color: grey;
+}
+.bottom-child-main-2 {
+  width: 45%;
+  height: 40vh;
+  background-color: gray;
+}
+aside {
+  background-color: grey;
+  width: 20%;
+}
+.first-aside-child,
+.second-aside-child,
+.first-main-aside,
+.second-main-aside {
+  height: 5vh;
+  background-color: lightgray;
+}
+.first-aside-child {
+  width: 3rem;
+  border-radius: 50%;
+}
+.second-aside-child {
+  width: 10rem;
+}
+.aside-child {
+  margin-left: 1rem;
+  width: 10rem;
+  height: 5vh;
+  background-color: lightgray;
+}
+.first-main-aside {
+  width: 3rem;
+}
+.second-main-aside {
+  width: 10rem;
+}
+.big-aside-bottom {
+  margin: auto;
+  width: 18rem;
+  height: 20vh;
+  background-color: lightgray;
+}
+/* finish main */
